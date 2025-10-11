@@ -196,8 +196,7 @@ Area of Rectangle = 50.0
 - **Python** is a **high-level**, **interpreted**, and **easy-to-use** language.  
 - It uses an **interpreter**, not a compiler like C++.  
 - Programming involves: **Understanding problem → Algorithm → Code → Test**  
-- Writing an **algorithm is mandatory** for every problem.  
-- Flowcharts and pseudocode are optional but helpful in exams.
+
 
 ---
 
