@@ -1,7 +1,7 @@
 
 **For Basics Terms, Concept of Algorithm, Concept of Programming Languages and other Fundamentals of Programming:**
 
-**visit this repo => ![Alt Text](https://github.com/Muhammad-Hussain456/Fundamentals_of_Programming-)**
+**🔗 [Visit the "Fundamentals of Programming" Repository](https://github.com/Muhammad-Hussain456/Fundamentals_of_Programming-)**
 
 ---
 
