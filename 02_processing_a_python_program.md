@@ -1,7 +1,7 @@
 
-** 🐍 For Overview of Programming languages, Evolution of Programming Languages and other fundamentals of programming:**
+**For Basics Terms, Concept of Algorithm, Concept of Programming Languages and other Fundamentals of Programming:**
 
-visit this repo => ![Alt Text](Flowcharts/01_LargestOfTwoNumbers.jpg)
+**visit this repo => ![Alt Text](https://github.com/Muhammad-Hussain456/Fundamentals_of_Programming-)**
 
 ---
 
