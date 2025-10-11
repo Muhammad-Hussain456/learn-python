@@ -148,17 +148,6 @@ Height: 5.9
 Grade: A
 Passed: True
 ```
-
----
-
-## 🏗️ Program Execution Steps
-
-1. **Parsing** – Python reads and parses the code line by line.
-2. **Compilation (internally)** – Python compiles code into bytecode behind the scenes.
-3. **Interpretation** – The Python interpreter runs bytecode line by line.
-4. **Memory Management** – Variables and objects are stored in memory automatically.
-5. **Execution** – Code runs from top to bottom unless controlled by conditions or loops.
-
 ---
 
 > ✅ Python is dynamically typed, beginner-friendly, and used in everything from automation to AI.
