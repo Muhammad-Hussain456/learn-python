@@ -45,7 +45,7 @@ is_passed = True
 | Construct               | Syntax in Python          | Semantic in Python                             | Example                                |
 | ----------------------- | ------------------------- | ---------------------------------------------- | -------------------------------------- |
 | Variable Initialization    | `variable = value`        | Creates a variable and assigns value           | `age = 25`                             |
-| Dynamic Typing          | No explicit type needed   | Python figures out the type automatically      | `name = "Ali"`                         |
+| Dynamic Type          | No explicit type needed   | Python figures out the type automatically      | `name = "Ali"`                         |
 | Reassignment            | `variable = new_value`    | Updates the variable value                     | `age = 30`                             |
 
 ---
