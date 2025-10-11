@@ -65,17 +65,8 @@ Programming is a **problem-solving process**.
 
 ## 📐 Algorithm (الگوردم) 
 
-A step-by-step solution for finding area and perimeter of a rectangle.
-
-### English:
-
-1. Start  
-2. Input length  
-3. Input width  
-4. Calculate perimeter = 2 × (length + width)  
-5. Calculate area = length × width  
-6. Display results  
-7. End
+...
+...
 
 ---
 
