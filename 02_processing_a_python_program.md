@@ -1,50 +1,12 @@
-# 🐍 Evolution of Programming Languages  
-## پروگرامنگ لینگویجز کا ارتقا
 
-How programming languages changed and improved step by step from old to modern.  
-پروگرامنگ لینگویجز میں وقت کے ساتھ بہتری اور ترقی کیسے ہوئی۔
+** 🐍 For Overview of Programming languages, Evolution of Programming Languages and other fundamentals of programming:**
 
----
-
-### 1. **Machine Language (مشین لینگویج) – 1940s**  
-- Programs written only in **0s and 1s (binary)**  
-- Directly understood by computer hardware  
-- Very hard for humans to write, understand, and debug  
+visit this repo => 
 
 ---
 
-### 2. **Assembly Language (اسمبلی لینگویج) – 1950s**  
-- Uses symbolic instructions like `MOV`, `ADD`, `SUB`  
-- Requires an **Assembler** to convert into machine code  
-- Easier than machine language but still low-level  
-
----
-
-### 3. **High-Level Languages (ہائی لیول لینگویجز) – Late 1950s–Present**  
-- Use English-like syntax (e.g., `print`, `if`, `while`)  
-- Easier to learn and understand  
-- Require a **Compiler** or **Interpreter** to run  
-- **Examples:**
-  - **Early:** FORTRAN (1957), COBOL (1959), BASIC (1964), Pascal (1970)  
-  - **Modern:** C, C++, Java, **Python**, JavaScript, PHP, Swift, Kotlin, Rust, Go, TypeScript  
-
----
-
-### 🔁 Interpreter vs Compiler
-
-| Feature         | Compiler (کمپائلر)                           | Interpreter (انٹرپریٹر)                         |
-|-----------------|-----------------------------------------------|-------------------------------------------------|
-| **Translation** | Converts full code at once                   | Converts and runs code line by line             |
-| **Speed**       | Faster after compilation                     | Slower, as it processes one line at a time      |
-| **Error Handling** | Shows all errors at once                | Shows one error at a time                       |
-| **Languages**   | C, C++, Java                                  | Python, JavaScript, Ruby                        |
-
-> ✅ Python uses an **Interpreter**, not a Compiler.
-
----
 
 # ⚙️ Processing a Python Program  
-## پائتھون پروگرام کا عملدرآمد
 
 ### 🔸 Example Program
 
