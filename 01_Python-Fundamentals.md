@@ -1,3 +1,8 @@
+
+**For Basics Terms, Concept of Algorithm, Concept of Programming Languages and other Fundamentals of Programming:**
+
+**🔗 [Visit the "Fundamentals_of_Programming" Repository](https://github.com/Muhammad-Hussain456/Fundamentals_of_Programming-)**
+
 # 🐍 Python Fundamentals
 
 ## 📌 Program Structure  
