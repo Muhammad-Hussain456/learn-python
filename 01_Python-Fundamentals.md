@@ -100,18 +100,23 @@ Type conversion changes data from one type to another.
 کسی ڈیٹا کو ایک ٹائپ سے دوسری میں تبدیل کرنا۔
 
 ```python
-x = 5.9
-y = int(x)      # Explicit
 a = 5
-b = float(a)    # Implicit
+b = 2.0
+c = a + b   # Implicit: int is converted to float
+print(c)    # Output: 7.0
+
+x = 5
+y = float(x)      # Explicit
+print(y)    # Output: 5.0
+
 ```
 
 ### 🔍 Syntax and Semantics
 
 | Type                    | Syntax in Python               | Semantic in Python                           | Example                      |
 | ----------------------- | ----------------------------- | --------------------------------------------- | ---------------------------- |
-| Implicit Conversion     | `float_var = int_var`         | Python auto converts if needed                | `b = float(5)`               |
-| Explicit Conversion     | `int_var = int(float_var)`    | Manually convert data type                    | `y = int(5.9)`               |
+| Implicit Conversion     | `var1 = value, var2 = value; var3 = var1 operator var2`         | Python auto converts one data type to another during an operation — if needed                | `a = 5, b = 2.0, c = a + b   # Implicit: int is converted to float  `               |
+| Explicit Conversion     | `var1 = int(var2)`    | Manually convert data type                    | `y = int(5.9)`               |
 
 ---
 
