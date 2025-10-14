@@ -1,5 +1,5 @@
-# ⚙️ Operators and Expressions in Python
 
+# ⚙️ Operators and Expressions in Python
 
 ---
 
@@ -9,11 +9,9 @@
 
 Operators are special symbols that perform actions on variables and values.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Operator	+, -, *, /, =	Symbol that performs an action	a - b, 2 + 4, c / 5, b = 6 — here -, +, /, = are operators.
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Operator | `+`, `-`, `*`, `/`, `=` | Symbol that performs an action | `a - b`, `2 + 4`, `c / 5`, `b = 6` |
 
 ---
 
@@ -21,11 +19,9 @@ Operator	+, -, *, /, =	Symbol that performs an action	a - b, 2 + 4, c / 5, b = 6
 
 Operands are the values or variables on which operators act.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Operand	a, b, 5, 3	Values or variables used in operation	a + b, 2 + 4, c / 5, b = 6 — here a, b, 2, 4, c, 5, 6 are operands.
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Operand | `a`, `b`, `5`, `3` | Values or variables used in operation | `a + b`, `2 + 4`, `c / 5`, `b = 6` |
 
 ---
 
@@ -33,11 +29,9 @@ Operand	a, b, 5, 3	Values or variables used in operation	a + b, 2 + 4, c / 5, b 
 
 An operation is the action performed by an operator on operands.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Operation	a + b	Action performed by operator on operands	sum = a + b — here a + b is an operation.
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Operation | `a + b` | Action performed by operator on operands | `sum = a + b` |
 
 ---
 
@@ -45,171 +39,133 @@ Operation	a + b	Action performed by operator on operands	sum = a + b — here a 
 
 An expression is a combination of operands and operators that produces a result.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Expression	a + b, x = 10	Complete construct that evaluates to a value	sum = a + b, mul = 4 * 2, passed = True are expressions.
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Expression | `a + b`, `x = 10` | Complete construct that evaluates to a value | `sum = a + b`, `mul = 4 * 2`, `passed = True` |
 
 ---
 
-### ➕ Arithmetic Operators
+## ➕ Arithmetic Operators
 
 Used for mathematical calculations.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Addition	+	Adds two values	a + b
-Subtraction	-	Subtracts second from first	a - b
-Multiplication	*	Multiplies two values	a * b
-Division	/	Divides first by second (float result)	a / b
-Floor Division	//	Divides and removes the decimal	a // b
-Modulus	%	Returns remainder	a % b
-Exponentiation	**	Raises power	a ** b
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Addition | `+` | Adds two values | `a + b` |
+| Subtraction | `-` | Subtracts second from first | `a - b` |
+| Multiplication | `*` | Multiplies two values | `a * b` |
+| Division | `/` | Divides first by second (float result) | `a / b` |
+| Floor Division | `//` | Divides and removes the decimal | `a // b` |
+| Modulus | `%` | Returns remainder | `a % b` |
+| Exponentiation | `**` | Raises power | `a ** b` |
 
 ---
 
-### 📝 Assignment Operators
+## 📝 Assignment Operators
 
 Assign values to variables.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Assignment	=	Assigns value	x = 10
-Add and assign	+=	Adds and assigns	x += 5
-Subtract and assign	-=	Subtracts and assigns	x -= 2
-Multiply and assign	*=	Multiplies and assigns	x *= 3
-Divide and assign	/=	Divides and assigns	x /= 2
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Assignment | `=` | Assigns value | `x = 10` |
+| Add and assign | `+=` | Adds and assigns | `x += 5` |
+| Subtract and assign | `-=` | Subtracts and assigns | `x -= 2` |
+| Multiply and assign | `*=` | Multiplies and assigns | `x *= 3` |
+| Divide and assign | `/=` | Divides and assigns | `x /= 2` |
 
 ---
 
-### 🔁 Increment / Decrement
+## 🔁 Increment / Decrement
 
-Unlike C++, Python does not have ++ or --.
+Unlike C++, Python does **not** have `++` or `--`.  
 Instead, you write:
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Increment	x = x + 1 or x += 1	Increase by 1	x += 1
-Decrement	x = x - 1 or x -= 1	Decrease by 1	x -= 1
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Increment | `x = x + 1` or `x += 1` | Increase by 1 | `x += 1` |
+| Decrement | `x = x - 1` or `x -= 1` | Decrease by 1 | `x -= 1` |
 
 ---
 
-### 🔍 Relational Operators
+## 🔍 Relational Operators
 
 Used to compare two values.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Equal to	==	True if equal	a == b
-Not equal to	!=	True if not equal	a != b
-Greater than	>	True if greater	a > b
-Less than	<	True if smaller	a < b
-Greater or equal	>=	True if ≥	a >= b
-Less or equal	<=	True if ≤	a <= b
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Equal to | `==` | True if equal | `a == b` |
+| Not equal to | `!=` | True if not equal | `a != b` |
+| Greater than | `>` | True if greater | `a > b` |
+| Less than | `<` | True if smaller | `a < b` |
+| Greater or equal | `>=` | True if ≥ | `a >= b` |
+| Less or equal | `<=` | True if ≤ | `a <= b` |
 
 ---
 
-### 🔐 Logical Operators
+## 🔐 Logical Operators
 
 Used to combine conditions.
 
-Construct	Syntax	Semantic (Meaning)	Example
-
-Logical AND	and	True if both conditions are true	a > 0 and b > 0
-Logical OR	or	True if at least one is true	a > 0 or b > 0
-Logical NOT	not	Reverses the condition	not (a > b)
-
-
+| Construct | Syntax | Semantic (Meaning) | Example |
+|------------|--------|--------------------|----------|
+| Logical AND | `and` | True if both conditions are true | `a > 0 and b > 0` |
+| Logical OR | `or` | True if at least one is true | `a > 0 or b > 0` |
+| Logical NOT | `not` | Reverses the condition | `not (a > b)` |
 
 ---
 
-### 🧠 Operator Precedence
+## 🧠 Operator Precedence
 
 Defines the order in which operations are evaluated.
 
-Precedence Level	Syntax	Semantic (Meaning)	Example
-
-1 (Highest)	**	Exponentiation	a ** b
-2	+x, -x, ~x	Unary operations	-a, +a
-3	*, /, //, %	Multiplication, division, modulus	a * b, a / b
-4	+, -	Addition, subtraction	a + b, a - b
-5	<, >, <=, >=, ==, !=	Comparisons	a < b, a == b
-6	not	Logical NOT	not a
-7	and	Logical AND	a and b
-8 (Lowest)	or	Logical OR	a or b
-
-
+| Precedence Level | Syntax | Semantic (Meaning) | Example |
+|------------------|--------|--------------------|----------|
+| 1 (Highest) | `**` | Exponentiation | `a ** b` |
+| 2 | `+x`, `-x`, `~x` | Unary operations | `-a`, `+a` |
+| 3 | `*`, `/`, `//`, `%` | Multiplication, division, modulus | `a * b`, `a / b` |
+| 4 | `+`, `-` | Addition, subtraction | `a + b`, `a - b` |
+| 5 | `<`, `>`, `<=`, `>=`, `==`, `!=` | Comparisons | `a < b`, `a == b` |
+| 6 | `not` | Logical NOT | `not a` |
+| 7 | `and` | Logical AND | `a and b` |
+| 8 (Lowest) | `or` | Logical OR | `a or b` |
 
 ---
 
-### 🧩 Example Problem
+## 🧩 Example Problem
 
 Create variables for student marks, height, grade, and pass status. Assign values and display them.
 
-
 ---
 
-🧠 Step-by-Step Solution
+## 🧠 Step-by-Step Solution
 
-1. ✅ Problem Definition
-
+### 1. ✅ Problem Definition  
 Calculate total and average marks using arithmetic operators and check pass status using relational and logical operators.
 
+---
+
+### 2. 🔍 Problem Analysis  
+- Declare three variables for marks.  
+- Use `+` and `/` for total and average.  
+- Use `>=` and `and` to check pass condition.  
+- Display results using `print()`.
 
 ---
 
-2. 🔍 Problem Analysis
-
-Declare three variables for marks.
-
-Use + and / for total and average.
-
-Use >= and and to check pass condition.
-
-Display results using print().
-
-
-
----
-
-3. 🧮 Algorithm
-
-1. Start program
-
-
-2. Declare mark1, mark2, mark3
-
-
-3. Calculate total = mark1 + mark2 + mark3
-
-
-4. Calculate average = total / 3
-
-
-5. Check if average ≥ 50 and all marks ≥ 40
-
-
-6. Display results
-
-
+### 3. 🧮 Algorithm  
+1. Start program  
+2. Declare `mark1`, `mark2`, `mark3`  
+3. Calculate `total = mark1 + mark2 + mark3`  
+4. Calculate `average = total / 3`  
+5. Check if average ≥ 50 and all marks ≥ 40  
+6. Display results  
 7. End program
 
-
-
-
 ---
 
-4. 💻 Coding
+### 4. 💻 Coding
 
+```python
 # Program to calculate total, average, and pass status
 
 mark1 = 60
@@ -243,11 +199,13 @@ Passed: True
 
 6. ⚙️ Notes
 
-No preprocessor, compiler, or linker phases in Python — it’s an interpreted language.
+Python is an interpreted language, not compiled.
 
-Python code runs line-by-line using the Python interpreter.
+No preprocessor, compiler, or linker phases.
 
-Errors are detected at runtime, not compile-time.
+Code executes line-by-line through the Python interpreter.
+
+Errors are detected at runtime, not at compile time.
 
 
 
