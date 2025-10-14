@@ -180,11 +180,10 @@ passed = (average >= 50) and (mark1 >= 40) and (mark2 >= 40) and (mark3 >= 40)
 print("Total Marks:", total)
 print("Average Marks:", average)
 print("Passed:", passed)
-
+```
 
 ---
-
-5. ▶️ Output
+### 5. ▶️ Output
 
 Total Marks: 185
 Average Marks: 61.666666666666664
@@ -197,7 +196,7 @@ Passed: True
 
 ---
 
-6. ⚙️ Notes
+### 6. ⚙️ Notes
 
 Python is an interpreted language, not compiled.
 
