@@ -5,7 +5,6 @@ Selection statements in Python help your program **make decisions** based on con
 ---
 
 ## 🔍 Logical Expressions
-
 Logical expressions return either **True** or **False** and are used in decision-making.
 
 **Examples:**
@@ -17,8 +16,25 @@ x == 10            # True if x equals 10
 
 ---
 
+## 🔍 Logical Expressions – Syntax, Semantics, and Examples
+
+| 🔣 Syntax                          | 📘 Semantic Meaning                                      | 💡 Example                            |
+|-----------------------------------|----------------------------------------------------------|---------------------------------------|
+| `operand1 == operand2`            | Checks if both operands are equal                        | `5 == 5` → `True`                     |
+| `operand1 != operand2`            | Checks if operands are not equal                         | `5 != 3` → `True`                     |
+| `operand1 > operand2`             | Checks if left operand is greater than right             | `7 > 4` → `True`                      |
+| `operand1 < operand2`             | Checks if left operand is less than right                | `3 < 9` → `True`                      |
+| `operand1 >= operand2`            | Checks if left operand is greater than or equal to right | `6 >= 6` → `True`                     |
+| `operand1 <= operand2`            | Checks if left operand is less than or equal to right    | `2 <= 5` → `True`                     |
+| `(condition1) and (condition2)`   | True if **both** conditions are true                     | `(5 > 3) and (2 < 4)` → `True`        |
+| `(condition1) or (condition2)`    | True if **at least one** condition is true               | `(5 > 3) or (2 > 4)` → `True`         |
+| `not(condition)`                  | True if the condition is **false**                       | `not(5 == 3)` → `True`                |
+
+---
+
 ## 🧠 `if` Statement
 
+Semantic:
 Executes a block of code **only if** the condition is true.
 
 ```python
@@ -37,8 +53,9 @@ if score >= 50:
 ---
 
 ## 🔁 `if-else` Statement
-
+Semantic:
 Executes one block if the condition is true, another if false.
+
 Syntax:
 ```python
 if condition:
@@ -59,7 +76,7 @@ else:
 ---
 
 ## 🧩 Nested `if` Statement
-
+Semantic:
 An `if` inside another `if`. Used for **multi-level decisions**.
 
 Syntax:
@@ -85,8 +102,10 @@ else:
 
 ## 🔀 `match` Statement (Python 3.10+)
 
+Semantic:
 Used for **multi-way branching** based on a single variable. Similar to `switch` in C++.
 
+Syntax:
 ```python
 match expression:
     case value1:
