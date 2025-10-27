@@ -1,49 +1,58 @@
-## 🧭 Control Structures I: Selection Statements (Python Version)
-
-Selection statements in Python help your program **make decisions** based on conditions.
+## 🧭 Control Structures I (Python)
 
 ---
 
-## 🔍 Logical Expressions
-Logical expressions return either **True** or **False** and are used in decision-making.
+## 🔍 Expressions in Python
 
-**Examples:**
+An **expression** is any valid combination of operands and operators that evaluates to a value.
+
+### ✅ Types of Expressions
+
+| 🧩 Type            | ✅ Syntax                          | 📘 Semantic Meaning                                      | 💡 Example                      |
+|--------------------|------------------------------------|----------------------------------------------------------|---------------------------------|
+| Arithmetic         | `operand1 + operand2`              | Performs math operations                                 | `a + b` → adds `a` and `b`      |
+| Relational         | `operand1 > operand2`              | Compares values, returns `True` or `False`               | `score > 50` → `True` if score is above 50 |
+| Logical            | `condition1 and condition2`        | Combines Boolean results                                 | `(x > 5) and (y < 10)` → `True` if both are true |
+| Assignment         | `variable = value`                 | Assigns a value to a variable                            | `x = 10` → assigns 10 to `x`    |
+| Unary              | `not condition`                    | Operates on a single operand                             | `not flag` → negates `flag`     |
+| Compound           | `variable += value`                | Combines arithmetic and assignment                       | `x += 5` → adds 5 to `x`         |
+
+---
+
+## 🧾 Statements in Python
+
+A **statement** is a complete instruction that performs an action. It may contain expressions.
+
+### ✅ Types of Statements
+
+| 🧩 Type                  | ✅ Syntax Example                  | 📘 Semantic Meaning                                      | 💡 Example                      |
+|--------------------------|------------------------------------|----------------------------------------------------------|---------------------------------|
+| Expression Statement     | `expression`                       | Evaluates an expression                                  | `x = 5`                         |
+| Declaration Statement    | `variable = value`                 | Declares and initializes a variable                      | `score = 90`                    |
+| Compound Statement       | `if x > 0:\n    print(x)`          | Groups multiple statements via indentation               | `if x > 0:\n    print(x)`       |
+| Selection Statement      | `if`, `if-else`, `match`           | Chooses between paths based on conditions                | `if x > 0: print(x)`            |
+| Iteration Statement      | `for`, `while`                     | Repeats actions based on conditions                      | `while x < 10:\n    x += 1`     |
+| Jump Statement           | `break`, `continue`, `return`      | Alters control flow directly                             | `return "Done"`                |
+
+---
+
+### Selection Statement  
+Selection statements in Python allow your program to **make decisions** based on conditions.
+
+---
+
+### 🧠 `if` Statement
+
+#### ✅ Syntax
 ```python
-a > b              # True if a is greater than b
-x == 10            # True if x equals 10
-(x >= 50) and (y >= 50)  # True if both x and y are ≥ 50
-```
-
----
-
-## 🔍 Logical Expressions – Syntax, Semantics, and Examples
-
-| 🔣 Syntax                          | 📘 Semantic Meaning                                      | 💡 Example                            |
-|-----------------------------------|----------------------------------------------------------|---------------------------------------|
-| `operand1 == operand2`            | Checks if both operands are equal                        | `5 == 5` → `True`                     |
-| `operand1 != operand2`            | Checks if operands are not equal                         | `5 != 3` → `True`                     |
-| `operand1 > operand2`             | Checks if left operand is greater than right             | `7 > 4` → `True`                      |
-| `operand1 < operand2`             | Checks if left operand is less than right                | `3 < 9` → `True`                      |
-| `operand1 >= operand2`            | Checks if left operand is greater than or equal to right | `6 >= 6` → `True`                     |
-| `operand1 <= operand2`            | Checks if left operand is less than or equal to right    | `2 <= 5` → `True`                     |
-| `(condition1) and (condition2)`   | True if **both** conditions are true                     | `(5 > 3) and (2 < 4)` → `True`        |
-| `(condition1) or (condition2)`    | True if **at least one** condition is true               | `(5 > 3) or (2 > 4)` → `True`         |
-| `not(condition)`                  | True if the condition is **false**                       | `not(5 == 3)` → `True`                |
-
----
-
-## 🧠 `if` Statement
-
-Semantic:
-Executes a block of code **only if** the condition is true.
-
-```python
-Syntax:
 if condition:
     # code to execute if condition is true
 ```
 
-**Example:**
+#### 📘 Semantic  
+Executes the block only if the condition evaluates to `True`.
+
+#### 💡 Example
 ```python
 score = 75
 if score >= 50:
@@ -52,11 +61,9 @@ if score >= 50:
 
 ---
 
-## 🔁 `if-else` Statement
-Semantic:
-Executes one block if the condition is true, another if false.
+### 🔁 `if-else` Statement
 
-Syntax:
+#### ✅ Syntax
 ```python
 if condition:
     # true block
@@ -64,7 +71,10 @@ else:
     # false block
 ```
 
-**Example:**
+#### 📘 Semantic  
+Executes one block if the condition is true, another if false.
+
+#### 💡 Example
 ```python
 score = 45
 if score >= 50:
@@ -75,18 +85,19 @@ else:
 
 ---
 
-## 🧩 Nested `if` Statement
-Semantic:
-An `if` inside another `if`. Used for **multi-level decisions**.
+### 🧩 Nested `if` Statement
 
-Syntax:
+#### ✅ Syntax
 ```python
 if condition1:
     if condition2:
         # code if both conditions are true
 ```
 
-**Example:**
+#### 📘 Semantic  
+Allows multi-level decision-making by nesting conditions.
+
+#### 💡 Example
 ```python
 score = 85
 if score >= 50:
@@ -100,12 +111,9 @@ else:
 
 ---
 
-## 🔀 `match` Statement (Python 3.10+)
+### 🔀 `match` Statement (Python 3.10+)
 
-Semantic:
-Used for **multi-way branching** based on a single variable. Similar to `switch` in C++.
-
-Syntax:
+#### ✅ Syntax
 ```python
 match expression:
     case value1:
@@ -116,7 +124,10 @@ match expression:
         # default case
 ```
 
-**Example:**
+#### 📘 Semantic  
+Selects one of many possible blocks to execute based on a single expression.
+
+#### 💡 Example
 ```python
 grade = 'B'
 match grade:
@@ -134,35 +145,4 @@ match grade:
 
 ---
 
-## 🧪 Example Problem: Grade Evaluation
-
-### ✅ Problem:
-Evaluate a student's grade and display a message using `if-else` and `match`.
-
-### 💻 Code:
-```python
-marks = 78
-
-if marks >= 80:
-    grade = 'A'
-elif marks >= 70:
-    grade = 'B'
-elif marks >= 60:
-    grade = 'C'
-else:
-    grade = 'F'
-
-match grade:
-    case 'A':
-        print("Excellent")
-    case 'B':
-        print("Good")
-    case 'C':
-        print("Fair")
-    case 'F':
-        print("Fail")
-    case _:
-        print("Invalid grade")
-```
-
----
+Would you like this exported into your Markdown or Word template next? I can also prepare a bilingual version with Urdu translations for each semantic label and comment.
