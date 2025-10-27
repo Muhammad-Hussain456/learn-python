@@ -144,5 +144,3 @@ match grade:
 ```
 
 ---
-
-Would you like this exported into your Markdown or Word template next? I can also prepare a bilingual version with Urdu translations for each semantic label and comment.
