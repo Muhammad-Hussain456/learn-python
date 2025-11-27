@@ -3,7 +3,7 @@
 ## 📚 Chapter 1: Python Sets Overview
 
 ### What are Sets?
-**Sets** are unordered collections of unique, immutable elements. They are mutable, efficient for membership testing, and support mathematical set operations.
+**Sets** are unordered collections of unique, mmutable elements. They are mutable, efficient for membership testing, and support mathematical set operations.
 
 ### Real-Life Analogy: **School Club Membership** 🏫
 - **Set** = Club members roster
